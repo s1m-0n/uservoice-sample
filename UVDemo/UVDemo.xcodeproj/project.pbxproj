@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39C6B412EA4F866BBC7F238F /* libPods-UVDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AB3D4471F3169AEAA97AA95 /* libPods-UVDemo.a */; };
+		D2D8819813AB00D800C2BBEE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2D8819713AB00D800C2BBEE /* UIKit.framework */; };
+		D2D8819A13AB00D800C2BBEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2D8819913AB00D800C2BBEE /* Foundation.framework */; };
+		D2D8819C13AB00D800C2BBEE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2D8819B13AB00D800C2BBEE /* CoreGraphics.framework */; };
+		D2D881A213AB00D800C2BBEE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D2D881A013AB00D800C2BBEE /* InfoPlist.strings */; };
+		D2D881A513AB00D800C2BBEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D881A413AB00D800C2BBEE /* main.m */; };
+		D2D881A813AB00D800C2BBEE /* UVDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D881A713AB00D800C2BBEE /* UVDemoAppDelegate.m */; };
+		D2D881D713AB03FA00C2BBEE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2D881D613AB03FA00C2BBEE /* SystemConfiguration.framework */; };
+		D2D881D913AB041000C2BBEE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2D881D813AB041000C2BBEE /* QuartzCore.framework */; };
+		D9BC9BCA18760E5A008748BD /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9BC9BC518760E5A008748BD /* Main_iPhone.storyboard */; };
+		D9BC9BCB18760E5A008748BD /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9BC9BC618760E5A008748BD /* Main_iPad.storyboard */; };
+		D9BC9BCC18760E5A008748BD /* UVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9BC9BC818760E5A008748BD /* UVViewController.m */; };
+		D9BC9BCD18760E5A008748BD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9BC9BC918760E5A008748BD /* Images.xcassets */; };
+		D9BC9BCF187610D1008748BD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D9BC9BCE187610D1008748BD /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10B336D7C362F92E56BE8C87 /* Pods-UVDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UVDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UVDemo/Pods-UVDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		6227629A4E3390CF44EC8AEB /* Pods-UVDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UVDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-UVDemo/Pods-UVDemo.release.xcconfig"; sourceTree = "<group>"; };
+		7AB3D4471F3169AEAA97AA95 /* libPods-UVDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UVDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2D8819313AB00D800C2BBEE /* UVDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UVDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2D8819713AB00D800C2BBEE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D2D8819913AB00D800C2BBEE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2D8819B13AB00D800C2BBEE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D2D8819F13AB00D800C2BBEE /* UVDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UVDemo-Info.plist"; sourceTree = "<group>"; };
+		D2D881A113AB00D800C2BBEE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D2D881A313AB00D800C2BBEE /* UVDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UVDemo-Prefix.pch"; sourceTree = "<group>"; };
+		D2D881A413AB00D800C2BBEE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D2D881A613AB00D800C2BBEE /* UVDemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UVDemoAppDelegate.h; sourceTree = "<group>"; };
+		D2D881A713AB00D800C2BBEE /* UVDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UVDemoAppDelegate.m; sourceTree = "<group>"; };
+		D2D881D613AB03FA00C2BBEE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		D2D881D813AB041000C2BBEE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D9BC9BC518760E5A008748BD /* Main_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main_iPhone.storyboard; path = Classes/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		D9BC9BC618760E5A008748BD /* Main_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main_iPad.storyboard; path = Classes/Main_iPad.storyboard; sourceTree = "<group>"; };
+		D9BC9BC718760E5A008748BD /* UVViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UVViewController.h; sourceTree = "<group>"; };
+		D9BC9BC818760E5A008748BD /* UVViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UVViewController.m; sourceTree = "<group>"; };
+		D9BC9BC918760E5A008748BD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Classes/Images.xcassets; sourceTree = "<group>"; };
+		D9BC9BCE187610D1008748BD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2D8819013AB00D700C2BBEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2D881D913AB041000C2BBEE /* QuartzCore.framework in Frameworks */,
+				D2D881D713AB03FA00C2BBEE /* SystemConfiguration.framework in Frameworks */,
+				D2D8819C13AB00D800C2BBEE /* CoreGraphics.framework in Frameworks */,
+				D2D8819813AB00D800C2BBEE /* UIKit.framework in Frameworks */,
+				D2D8819A13AB00D800C2BBEE /* Foundation.framework in Frameworks */,
+				39C6B412EA4F866BBC7F238F /* libPods-UVDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AADCA7C96AA0DB8DD3BB9F5A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				10B336D7C362F92E56BE8C87 /* Pods-UVDemo.debug.xcconfig */,
+				6227629A4E3390CF44EC8AEB /* Pods-UVDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D2D8818813AB00D700C2BBEE = {
+			isa = PBXGroup;
+			children = (
+				D2D8819D13AB00D800C2BBEE /* Classes */,
+				D9563BD3167B992700F6AFB6 /* Resources */,
+				D2D8819613AB00D800C2BBEE /* Frameworks */,
+				D2D8819413AB00D800C2BBEE /* Products */,
+				D2D881D613AB03FA00C2BBEE /* SystemConfiguration.framework */,
+				D2D881D813AB041000C2BBEE /* QuartzCore.framework */,
+				AADCA7C96AA0DB8DD3BB9F5A /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		D2D8819413AB00D800C2BBEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2D8819313AB00D800C2BBEE /* UVDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2D8819613AB00D800C2BBEE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2D8819713AB00D800C2BBEE /* UIKit.framework */,
+				D2D8819913AB00D800C2BBEE /* Foundation.framework */,
+				D2D8819B13AB00D800C2BBEE /* CoreGraphics.framework */,
+				7AB3D4471F3169AEAA97AA95 /* libPods-UVDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2D8819D13AB00D800C2BBEE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D9BC9BC718760E5A008748BD /* UVViewController.h */,
+				D9BC9BC818760E5A008748BD /* UVViewController.m */,
+				D2D881A613AB00D800C2BBEE /* UVDemoAppDelegate.h */,
+				D2D881A713AB00D800C2BBEE /* UVDemoAppDelegate.m */,
+				D2D8819E13AB00D800C2BBEE /* Supporting Files */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D2D8819E13AB00D800C2BBEE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2D8819F13AB00D800C2BBEE /* UVDemo-Info.plist */,
+				D2D881A013AB00D800C2BBEE /* InfoPlist.strings */,
+				D2D881A313AB00D800C2BBEE /* UVDemo-Prefix.pch */,
+				D2D881A413AB00D800C2BBEE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9563BD3167B992700F6AFB6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D9BC9BCE187610D1008748BD /* Default-568h@2x.png */,
+				D9BC9BC918760E5A008748BD /* Images.xcassets */,
+				D9BC9BC518760E5A008748BD /* Main_iPhone.storyboard */,
+				D9BC9BC618760E5A008748BD /* Main_iPad.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2D8819213AB00D700C2BBEE /* UVDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2D881CA13AB00D800C2BBEE /* Build configuration list for PBXNativeTarget "UVDemo" */;
+			buildPhases = (
+				A1380957F988E67024AEDAA6 /* 📦 Check Pods Manifest.lock */,
+				D2D8818F13AB00D700C2BBEE /* Sources */,
+				D2D8819013AB00D700C2BBEE /* Frameworks */,
+				D2D8819113AB00D700C2BBEE /* Resources */,
+				17BCBDB996CA9BA273B1E2B1 /* 📦 Embed Pods Frameworks */,
+				E6AC6FFAD3B9B6F8BC57F3CD /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UVDemo;
+			productName = UVDemo;
+			productReference = D2D8819313AB00D800C2BBEE /* UVDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2D8818A13AB00D700C2BBEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Uservoice;
+			};
+			buildConfigurationList = D2D8818D13AB00D700C2BBEE /* Build configuration list for PBXProject "UVDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				fr,
+				it,
+				nl,
+				"zh-Hant",
+				ca,
+				cs,
+				da,
+				de,
+				el,
+				"en-GB",
+				es,
+				fi,
+				hr,
+				hu,
+				id,
+				ja,
+				ko,
+				ms,
+				nb,
+				pl,
+				"pt-PT",
+				pt,
+				ro,
+				ru,
+				sk,
+				sv,
+				th,
+				tr,
+				uk,
+				vi,
+				"zh-Hans",
+			);
+			mainGroup = D2D8818813AB00D700C2BBEE;
+			productRefGroup = D2D8819413AB00D800C2BBEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2D8819213AB00D700C2BBEE /* UVDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2D8819113AB00D700C2BBEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9BC9BCB18760E5A008748BD /* Main_iPad.storyboard in Resources */,
+				D9BC9BCD18760E5A008748BD /* Images.xcassets in Resources */,
+				D2D881A213AB00D800C2BBEE /* InfoPlist.strings in Resources */,
+				D9BC9BCF187610D1008748BD /* Default-568h@2x.png in Resources */,
+				D9BC9BCA18760E5A008748BD /* Main_iPhone.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17BCBDB996CA9BA273B1E2B1 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UVDemo/Pods-UVDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1380957F988E67024AEDAA6 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E6AC6FFAD3B9B6F8BC57F3CD /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UVDemo/Pods-UVDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2D8818F13AB00D700C2BBEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2D881A513AB00D800C2BBEE /* main.m in Sources */,
+				D2D881A813AB00D800C2BBEE /* UVDemoAppDelegate.m in Sources */,
+				D9BC9BCC18760E5A008748BD /* UVViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D2D881A013AB00D800C2BBEE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2D881A113AB00D800C2BBEE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2D881C813AB00D800C2BBEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Austin Taylor (7SMBK8U887)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "25558DDE-9AA2-42C8-A814-37E195B3550D";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv6 armv7";
+			};
+			name = Debug;
+		};
+		D2D881C913AB00D800C2BBEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Austin Taylor (7SMBK8U887)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "25558DDE-9AA2-42C8-A814-37E195B3550D";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv6 armv7";
+			};
+			name = Release;
+		};
+		D2D881CB13AB00D800C2BBEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10B336D7C362F92E56BE8C87 /* Pods-UVDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Classes/UVDemo-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "Classes/UVDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+					"\\\"$(SRCROOT)/../DerivedData/UVDemoWorkspace/Build/Products/Debug-iphoneos\\\"",
+					"/Users/vgraupe/code/walmartlabs/ios_apps/uservoice-iphone-example/UVDemo",
+				);
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D2D881CC13AB00D800C2BBEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6227629A4E3390CF44EC8AEB /* Pods-UVDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Classes/UVDemo-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "Classes/UVDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+					"\\\"$(SRCROOT)/../DerivedData/UVDemoWorkspace/Build/Products/Debug-iphoneos\\\"",
+					"/Users/vgraupe/code/walmartlabs/ios_apps/uservoice-iphone-example/UVDemo",
+				);
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/**";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2D8818D13AB00D700C2BBEE /* Build configuration list for PBXProject "UVDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2D881C813AB00D800C2BBEE /* Debug */,
+				D2D881C913AB00D800C2BBEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2D881CA13AB00D800C2BBEE /* Build configuration list for PBXNativeTarget "UVDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2D881CB13AB00D800C2BBEE /* Debug */,
+				D2D881CC13AB00D800C2BBEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2D8818A13AB00D700C2BBEE /* Project object */;
+}
